@@ -1,0 +1,20 @@
+{
+  "name": "raw-node-api-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=staging&& nodemon -r dotenv/config index",
+    "production": "set NODE_ENV=production&& nodemon -r dotenv/config index"
+  },
+  "author": "Nafis Fuad",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "twilio": "^4.14.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
